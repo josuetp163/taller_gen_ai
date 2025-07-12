@@ -49,7 +49,7 @@ Para que este asistente funcione, necesitas tener **Ollama** instalado y ejecut�
    * Ejecuta:
 
      ```
-     python backend.py
+     python backend_app.py
      ```
 
    * Verás mensajes de inicialización de la base de datos vectorial y del LLM. Deja esta terminal abierta.
@@ -61,9 +61,18 @@ Para que este asistente funcione, necesitas tener **Ollama** instalado y ejecut�
    * Ejecuta:
 
      ```
-     streamlit run frontend.py
+     streamlit run frontend_app.py
      ```
 
    * Esto abrirá automáticamente la aplicación Streamlit en tu navegador web (generalmente en `http://localhost:8501`).
 
 ¡Ahora puedes interactuar con tu Asistente Técnico Inteligente en un formato de chat!
+
+
+Ejemplos: 
+
+Dime que es un Arduino UNO
+Dame una lista de preguntas para estudiar acerca del Arduino UNO. 
+Dame una lista de preguntas para estudiar acerca de las Normas Técnicas en Ingeniería.
+Cuales son las aplicaciones típicas de la Raspberry Pi 4 Modelo B
+
